@@ -1,0 +1,36 @@
+body{
+    background-color: #aaa;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.NavBar{
+    width: 100%;
+    height:40% ;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    width: 5rem;
+    height: auto;
+    margin: .3125rem;
+}
+.UlBar{
+    display: flex;
+    justify-content: space-between;
+    width:65% ;
+    margin:auto;
+}
+.contador{
+    width: 15%;
+    height: auto;
+    margin: auto;
+}
+p{
+    font-size: 150%;
+}
